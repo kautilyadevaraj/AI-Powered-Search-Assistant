@@ -1,4 +1,4 @@
-# AI-Powered Search Assistant
+# ClaritySearch
 
 An intelligent search assistant that combines Google's powerful search engine with Gemini 1.5 Pro's summarization capabilities to deliver concise, relevant, and context-aware results. This project simplifies information retrieval by eliminating noise, extracting key insights, and enhancing productivity across domains.
 

@@ -48,7 +48,7 @@ An intelligent search assistant that combines Google's powerful search engine wi
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/ai-search-assistant.git
+git clone https://github.com/kautilyadevaraj/AI-Powered-Search-Assistant
 cd ai-search-assistant
 npm install
 npm run dev

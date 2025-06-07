@@ -6,6 +6,8 @@ import { SearchResults } from "@/components/search-results";
 import { MoonIcon, SunIcon } from "lucide-react";
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import Logo from "@/public/logo.png";
 
 export interface SearchResult {
   title?: string;
@@ -62,7 +64,11 @@ export default function SearchPage() {
     <div className="min-h-screen flex flex-col">
       <header className="border-b">
         <div className="container mx-auto py-4 px-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold">AI-Powered Search</h1>
+          <div className="flex items-center">
+            <Image src={Logo} alt="Logo" className="h-10 w-10"></Image>
+            <h1 className="text-2xl font-bold">ClaritySearch</h1>
+          </div>
+
           <Button
             variant="ghost"
             size="icon"

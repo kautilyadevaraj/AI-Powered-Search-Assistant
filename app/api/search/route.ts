@@ -55,7 +55,7 @@ async function summarizeWithGemini(
   try {
     const genAI = new GoogleGenerativeAI(apiKey);
     const model = genAI.getGenerativeModel({
-      model: "gemini-1.5-pro-latest",
+      model: "gemini-2.5-flash-preview-05-20",
       generationConfig: {
         temperature: 0.3,
         topP: 0.95,
